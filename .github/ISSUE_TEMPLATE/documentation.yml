@@ -1,0 +1,14 @@
+name: Documentation change
+about: Suggest an improvement or correction to docs or Spaces content
+labels: docs
+title: '[docs] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the change you propose and link to any relevant files or Spaces content.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the change
